@@ -39,7 +39,7 @@ static void UHS_NI call_ISReven() {
 }
 
 static void UHS_NI call_ISRodd() {
-        UHS_PIN_WRITE(LED_BUILTIN, HIGH);
+        //UHS_PIN_WRITE(LED_BUILTIN, HIGH);
         ISRodd->ISRTask();
 }
 #endif
