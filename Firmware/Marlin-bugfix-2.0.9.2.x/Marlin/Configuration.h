@@ -197,7 +197,7 @@
 #define EXTRUDERS 1
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
-#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
+#define DEFAULT_NOMINAL_FILAMENT_DIA 2.85
 
 // For Cyclops or any "multi-extruder" that shares a single nozzle.
 //#define SINGLENOZZLE
@@ -932,7 +932,7 @@
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
  //***Tu zmainy
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 24 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 160, 400, 12 }
 
 /**
  * Default Max Feed Rate (mm/s)
